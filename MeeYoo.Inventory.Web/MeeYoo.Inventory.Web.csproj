@@ -162,7 +162,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Derp.Inventory\MeeYoo.Inventory.csproj">
+    <ProjectReference Include="..\MeeYoo.Inventory\MeeYoo.Inventory.csproj">
       <Project>{C4E3BA49-324A-4DBA-894A-3D4318547FB3}</Project>
       <Name>MeeYoo.Inventory</Name>
     </ProjectReference>

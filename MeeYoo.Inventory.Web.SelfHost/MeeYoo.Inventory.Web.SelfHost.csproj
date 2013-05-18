@@ -58,7 +58,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Derp.Inventory.Web\MeeYoo.Inventory.Web.csproj">
+    <ProjectReference Include="..\MeeYoo.Inventory.Web\MeeYoo.Inventory.Web.csproj">
       <Project>{ED0E9161-300E-4C8F-B71C-BE557657E344}</Project>
       <Name>MeeYoo.Inventory.Web</Name>
     </ProjectReference>

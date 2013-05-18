@@ -67,11 +67,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Derp.Inventory.Web\MeeYoo.Inventory.Web.csproj">
+    <ProjectReference Include="..\MeeYoo.Inventory.Web\MeeYoo.Inventory.Web.csproj">
       <Project>{ED0E9161-300E-4C8F-B71C-BE557657E344}</Project>
       <Name>MeeYoo.Inventory.Web</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Derp.Inventory\MeeYoo.Inventory.csproj">
+    <ProjectReference Include="..\MeeYoo.Inventory\MeeYoo.Inventory.csproj">
       <Project>{C4E3BA49-324A-4DBA-894A-3D4318547FB3}</Project>
       <Name>MeeYoo.Inventory</Name>
     </ProjectReference>
