@@ -1,0 +1,9 @@
+﻿@inherits MeeYoo.Inventory.Web.RazorView<MeeYoo.Inventory.Messages.ReceiveItem>
+
+<form method="POST"  action="@Form.Action">
+    @Form.LabelFor(c => c.Quantity)
+    @Form.TextBoxFor(c => c.Quantity)
+    <br />
+    @Form.HiddenFor(c => c.WarehouseItemId, Model.WarehouseItemId)
+    @Form.Submit()
+</form>

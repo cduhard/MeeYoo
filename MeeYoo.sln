@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeeYoo.Inventory", "MeeYoo.Inventory\MeeYoo.Inventory.csproj", "{C4E3BA49-324A-4DBA-894A-3D4318547FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeeYoo.Inventory.Web", "MeeYoo.Inventory.Web\MeeYoo.Inventory.Web.csproj", "{ED0E9161-300E-4C8F-B71C-BE557657E344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeeYoo.Inventory.Tests", "MeeYoo.Inventory.Tests\MeeYoo.Inventory.Tests.csproj", "{AD40D1C2-DEFF-4494-910E-88641C180BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeeYoo.Inventory.Web.SelfHost", "MeeYoo.Inventory.Web.SelfHost\MeeYoo.Inventory.Web.SelfHost.csproj", "{957BF10E-EC21-40B4-9A98-35BBC02B71A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer", "Importer\Importer.csproj", "{9F96A7E2-A068-44E5-80B8-941F9985FAD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D11A2334-3E3B-4583-93AF-BA7904C25653}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4E3BA49-324A-4DBA-894A-3D4318547FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E3BA49-324A-4DBA-894A-3D4318547FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E3BA49-324A-4DBA-894A-3D4318547FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E3BA49-324A-4DBA-894A-3D4318547FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0E9161-300E-4C8F-B71C-BE557657E344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0E9161-300E-4C8F-B71C-BE557657E344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0E9161-300E-4C8F-B71C-BE557657E344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0E9161-300E-4C8F-B71C-BE557657E344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD40D1C2-DEFF-4494-910E-88641C180BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD40D1C2-DEFF-4494-910E-88641C180BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD40D1C2-DEFF-4494-910E-88641C180BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD40D1C2-DEFF-4494-910E-88641C180BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957BF10E-EC21-40B4-9A98-35BBC02B71A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957BF10E-EC21-40B4-9A98-35BBC02B71A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957BF10E-EC21-40B4-9A98-35BBC02B71A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957BF10E-EC21-40B4-9A98-35BBC02B71A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F96A7E2-A068-44E5-80B8-941F9985FAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F96A7E2-A068-44E5-80B8-941F9985FAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F96A7E2-A068-44E5-80B8-941F9985FAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F96A7E2-A068-44E5-80B8-941F9985FAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
